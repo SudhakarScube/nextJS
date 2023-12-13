@@ -2,10 +2,10 @@ name: Eleventy Build on Push
 on:
   push:
 	branches:
-  	- ssg
+  	- main
   pull_request:
 	branches:
-  	- ssg
+  	- main
 
 jobs:
   deploy:
