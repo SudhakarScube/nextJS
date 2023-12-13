@@ -1,4 +1,5 @@
 name: Build on Contentful Publish Event
+
 on:
 	repository_dispatch:
     	types: [publish-event]
