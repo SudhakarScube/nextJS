@@ -1,10 +1,14 @@
-name: GitHub Pages
+name: Next JS Push
 
 on:
-  push:
-    branches:
-      - main
-  pull_request:
+  contentful:
+    types:
+      - entry.publish
+      - entry.unpublish
+  # push:
+  #   branches:
+  #     - main
+  # pull_request:
 
 jobs:
   deploy:
