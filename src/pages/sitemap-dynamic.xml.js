@@ -31,7 +31,7 @@ function SitemapDynamic() {
   // getServerSideProps will do the heavy lifting
 }
 
-export async function getServerSideProps({ res }) {
+export async function getStaticProps({ res }) {
   const page = await Client.getEntries({ content_type: "page" });
 
   const pageData = await page.items;
