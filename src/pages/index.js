@@ -59,7 +59,6 @@ export async function getStaticProps() {
   return {
     props: {
       page_themedata: pagesdata,
-    },
-    revalidate: 60, // In seconds, controls how often the page is regenerated
+    }
   };
 }

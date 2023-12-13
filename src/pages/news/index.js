@@ -42,8 +42,7 @@ export async function getStaticProps() {
     props: {
       page_themedata: pagesdata,
       news_data: newsdata,
-    },
-    revalidate: 60 * 60, // Set a revalidation period in seconds based on your update frequency
+    }
   };
 }
 

@@ -74,7 +74,6 @@ export async function getStaticProps() {
   return {
     props: {
       usecase_themedata: usecasedata,
-    },
-    revalidate: 10, // Set the number of seconds before page re-generation
-  };
+    }
+    };
 }
