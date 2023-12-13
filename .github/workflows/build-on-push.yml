@@ -1,14 +1,10 @@
 name: Next JS Push
 
 on:
-  contentful:
-    types:
-      - entry.publish
-      - entry.unpublish
-  # push:
-  #   branches:
-  #     - main
-  # pull_request:
+  push:
+    branches:
+      - main
+  pull_request:
 
 jobs:
   deploy:

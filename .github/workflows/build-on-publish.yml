@@ -1,9 +1,7 @@
 name: Build on Contentful Publish Event
 on:
-	contentful:
-    types:
-      - entry.publish
-      - entry.unpublish
+	repository_dispatch:
+    	types: [publish-event]
 
 jobs:
   deploy:
