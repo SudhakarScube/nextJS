@@ -1,0 +1,28 @@
+.template-sidebar .heading {
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 130%;
+  color: #1a202c;
+}
+
+.template-sidebar .menu-list-title {
+  padding: 15px 0 0 0;
+  font-weight: 600;
+  line-height: 140%;
+  letter-spacing: 0.1px;
+}
+
+.template-sidebar .menu-list {
+  color: #1a202c;
+}
+.template-sidebar .menu-list :hover {
+  color: #194bfb;
+}
+.template-sidebar {
+  padding-top: 110px;
+}
+@media screen and (max-width: 899px) {
+  .template-sidebar {
+    padding-top: 56px !important;
+  }
+}

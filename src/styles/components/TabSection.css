@@ -1,0 +1,109 @@
+.tab-section {
+  padding: 18px 0 96px 0;
+  min-height: 380px;
+}
+.tab-section .tab-heading {
+  display: flex;
+}
+
+.tab-section .right-side .heading,
+.tab-section .left-side .heading {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 24.3px;
+  margin-bottom: 25px;
+  letter-spacing: 0.2px;
+  color: #000000;
+}
+.tab-section .right-side .description p,
+.tab-section .left-side .description p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 140%;
+  letter-spacing: 0.1px;
+  color: #5d6a83;
+}
+.tab-section .right-side .heading {
+  margin-bottom: 20px !important;
+}
+.tab-section .right-side .description table tbody tr {
+  display: table-row;
+  border-top: 2px solid #96a3be !important;
+}
+.tab-section .right-side .description table tbody tr td {
+  border-spacing: 0 !important;
+}
+.tab-section .right-side .description table tbody tr td:first-child {
+  padding-right: 72px;
+  border-right: 0px;
+}
+.tab-section .right-side .description table tbody tr td p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0.2px;
+  color: #000000;
+  margin: 20px 0;
+}
+.tab-section .right-side .description table tbody tr:last-child td {
+  border-bottom: 2px solid #96a3be !important;
+}
+.tab-section .tab-heading .tab-button-column {
+  margin-right: 52px;
+}
+.tab-section .button:hover {
+  background-color: transparent !important;
+}
+.tab-section .tab-heading .selected {
+  border-bottom: 7px solid #194bfb;
+  /* padding: 0 52px 8px 0; */
+}
+.tab-section .button {
+  color: #000000;
+  padding: 0;
+  min-height: 25px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 140%;
+  letter-spacing: 0.1px;
+  font-family: "Manrope";
+  text-transform: capitalize;
+  padding-bottom: 8px;
+  transition: none;
+}
+
+.tab-section .tab-button-column .MuiTabs-indicator {
+  position: relative;
+  height: 0;
+}
+/* Deatil-Tab-Table */
+@media screen and (max-width: 600px) {
+  .tab-section .tab-heading {
+    justify-content: space-between;
+  }
+  .tab-section .button {
+    margin-right: 0;
+    font-size: 14px;
+  }
+  .tab-section .tab-heading .tab-button-column {
+    margin: 0;
+  }
+}
+@media screen and (max-width: 899px) {
+  .tab-section {
+    padding-bottom: 56px;
+  }
+  .tab-section .tab-grid {
+    display: block;
+  }
+
+  .deatil-tab-table {
+    width: 100%;
+  }
+  .tab-section .left-side {
+    padding-top: 40px;
+  }
+  .tab-section .table-section .MuiContainer-maxWidthLg {
+    padding: 0;
+  }
+}

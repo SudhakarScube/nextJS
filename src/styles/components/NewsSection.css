@@ -1,0 +1,112 @@
+.news-section {
+  margin-top: 96px;
+}
+.news-section .news-link {
+  display: block !important;
+}
+.news-section .news-title {
+  text-align: center;
+}
+.news-section .news-title {
+  text-align: center;
+  font-weight: 700;
+  margin: 0 0 48px 0;
+  color: #1a202c;
+}
+.news-section .news-column .news-feature-image {
+  height: 240px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 8px;
+}
+
+.news-section .news-column {
+  background-color: rgb(255, 255, 255);
+  border-radius: 24px;
+  display: grid;
+  grid-template-columns: minmax(0px, 1fr);
+  grid-template-rows: repeat(2, max-content) 1fr;
+  height: 100%;
+  overflow: hidden;
+  padding-bottom: 1.5rem;
+  max-width: 100%;
+}
+.news-section .news-column .news-content-box {
+  padding: 32px 0;
+}
+
+.news-section .title {
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 130%;
+  color: #232b38;
+}
+.news-section .description p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.3px;
+  color: #718096;
+}
+.news-section .news-read-more-btn {
+  box-sizing: border-box;
+  margin: 3.5rem 0px 0px;
+  padding: 0px;
+  font: inherit;
+}
+.news-section .read-more-btn {
+  background-color: #fff;
+  padding: 0 16px;
+  line-height: 36px;
+  border-radius: 10px;
+  color: #191c1f;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Helvetica, Arial, Arimo, sans-serif;
+  font-weight: 500;
+  transition: 0.6s;
+}
+.news-section .read-more-btn:hover {
+  background-color: #f8f8f8;
+}
+.news-section .news-column-box {
+  justify-content: center;
+}
+@media only screen and (max-width: 428px) {
+  .news-section .news-column .news-feature-image {
+    height: 240px !important;
+    width: 100%;
+  }
+  .news-section {
+    margin: 0;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .news-section .news-column .news-feature-image {
+    height: 400px;
+    width: 100%;
+  }
+  .news-section .title {
+    white-space: break-spaces;
+    max-width: 100%;
+  }
+  .news-section .news-title {
+    font-size: 34px;
+    font-weight: 600;
+    margin: 0 0 45px 0;
+  }
+  .news-section .news-column-box {
+    margin: 0;
+  }
+  .news-section .news-column-box {
+    padding-left: 0 !important;
+    width: 100%;
+  }
+}
+
+.news-content-box h5 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}

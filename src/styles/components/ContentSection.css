@@ -1,0 +1,64 @@
+.content-section {
+  padding-top: 90px;
+}
+.content-section .heading-section .heading {
+  font-weight: 700;
+  font-size: 59px;
+  line-height: 110%;
+  /* text-align: center; */
+  color: #1a202c;
+}
+.content-section .heading-section .description p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  /* text-align: center; */
+  letter-spacing: 0.2px;
+  color: #5d6a83;
+}
+.content-section .heading-section {
+  /* width: 65.6%; */
+  margin: auto;
+}
+@media screen and (max-width: 899px) {
+  .content-section .heading-section .heading {
+    font-size: 32px;
+  }
+  .content-section {
+    padding-top: 56px;
+  }
+  .content-section .heading-section {
+    width: 95%;
+  }
+}
+/* data-tab-contentsection */
+.data-tab-contentsection {
+  padding-top: 46px;
+}
+.data-tab-contentsection .MuiContainer-maxWidthXl {
+  padding: 0;
+}
+.data-tab-contentsection .heading-section {
+  width: 100% !important;
+  margin: 0 !important;
+}
+.data-tab-contentsection .heading-section .description p,
+.data-tab-contentsection .heading-section .heading {
+  text-align: left !important;
+}
+.data-tab-contentsection .heading-section .heading {
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 125%;
+  letter-spacing: 0.2px;
+  color: #000000;
+  margin-bottom: 7px;
+}
+.data-tab-contentsection .heading-section .description p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.3px;
+  color: #5d6a83;
+  margin: 0;
+}

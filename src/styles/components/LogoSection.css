@@ -1,0 +1,73 @@
+.logo-carousel {
+  padding: 56px 0;
+}
+.logo-carousel .description {
+  padding: 0;
+}
+.logo-carousel .description p {
+  margin: 0;
+  color: #414a4e;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.3px;
+}
+.logo-carousel .logo-slider-column {
+  height: 72px;
+}
+.logo-carousel .carousel-logo .slick-list {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.logo-carousel .carousel-logo .slick-list.draggable {
+  cursor: hand;
+}
+
+.logo-carousel .carousel-logo {
+  overflow: hidden;
+}
+
+.logo-carousel .carousel-logo .customer-logos-slider .customer-logo-img {
+  margin: 0;
+  position: relative;
+  /* height: 56px; */
+}
+/* .logo-carousel .slick-cloned {
+  display: none !important;
+} */
+.logo-carousel .slick-slide {
+  width: 208px !important;
+}
+.logo-carousel .slick-track {
+  display: flex !important;
+  justify-content: space-around;
+  margin: 0 15px;
+  align-items: center;
+}
+.logo-carousel .img-fluid {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+@media screen and (max-width: 428px) {
+  .logo-carousel .customer-logo-img .img-fluid {
+    margin-left: 52px !important;
+    margin-top: 15px;
+  }
+  .logo-carousel .carousel-logo {
+    margin: 0 !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  .logo-carousel .carousel-logo .slick-list {
+    overflow: hidden;
+    width: 100%;
+  }
+  .logo-carousel {
+    padding: 15px 0;
+  }
+  .logo-carousel .carousel-logo {
+    margin: 28px 0;
+  }
+}

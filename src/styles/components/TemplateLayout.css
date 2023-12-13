@@ -1,0 +1,9 @@
+.Template-layout {
+  padding-bottom: 40px;
+  padding-top: 0 !important;
+}
+@media screen and (max-width: 1024px) and (min-width:899px) {
+  .Template-layout .content-side {
+    padding-left: 30px;
+  }
+}

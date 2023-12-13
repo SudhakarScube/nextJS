@@ -1,0 +1,100 @@
+.dynamic-faq-section {
+  padding-top: 96px;
+  margin: 0 auto !important;
+  padding-bottom: 96px !important;
+}
+.faq-accordion-section {
+  width: 70%;
+  margin: auto;
+  margin-top: 96px;
+  padding-bottom: 223px;
+}
+.faq-accordion-section .heading {
+  font-weight: 700;
+  font-size: 59px;
+  line-height: 110%;
+  text-align: center;
+  color: #1a202c;
+}
+
+.faq-accordion-section .description p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: 0.3px;
+  color: #718096;
+  width: 75%;
+  margin: 20px auto 48px auto;
+}
+
+.faq-accordion-section .accordion-title {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 140%;
+  letter-spacing: 0.1px;
+  color: #1a202c;
+}
+.faq-accordion-section .accordion-answer {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.3px;
+  color: #5d6a83;
+  width: 91%;
+}
+.faq-accordion-section .Mui-expanded {
+  background-color: #f7fafc;
+}
+.faq-accordion-section .accordion-column {
+  padding: 32px;
+  margin-bottom: 16px;
+  border: none;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  position: initial;
+}
+.faq-accordion-section .faq-item {
+  min-height: 25px !important;
+}
+.faq-accordion-section .accordion-answer p,
+.faq-accordion-section .faq-item .MuiAccordionSummary-content {
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.3px;
+  color: #5d6a83;
+}
+.faq-accordion-section .accordion-column .icon {
+  border: 1px solid;
+  border-radius: 50%;
+}
+.faq-accordion-section .Mui-expanded .icon {
+  color: #194bfb;
+}
+@media screen and (max-width: 900px) {
+  .faq-accordion-section {
+    padding: 0 !important;
+    width: 100% !important;
+    margin: auto;
+  }
+  .faq-accordion-section .heading {
+    font-size: 34px;
+  }
+  .faq-accordion-section .accordion-column {
+    padding: 15px;
+  }
+  .faq-accordion-section .accordion-title {
+    font-size: 16px;
+  }
+  .faq-accordion-section .accordion-column .icon {
+    font-size: 20px;
+  }
+  .faq-accordion-section .accordion-answer {
+    width: 100%;
+  }
+  .faq-accordion-section .description p {
+    width: 100%;
+  }
+}

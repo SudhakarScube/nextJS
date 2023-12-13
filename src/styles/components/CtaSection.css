@@ -1,0 +1,53 @@
+.cta-section {
+  margin: 56px 0;
+}
+.cta-section .cta-section-content {
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 16px;
+  padding: 64px 0;
+}
+.cta-section .heading {
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 125%;
+  text-align: center;
+  letter-spacing: 0.2px;
+}
+.cta-section .description p {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 140%;
+  text-align: center;
+  letter-spacing: 0.1px;
+}
+.cta-section .cta-button {
+  text-transform: initial;
+  margin-right: 12px;
+  padding: 12px 33px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  
+}
+
+@media screen and (max-width: 768px) {
+  .cta-section .cta-section-content {
+    position: relative;
+    width: 100%;
+    left: auto;
+    bottom: auto;
+  }
+  .cta-section .heading {
+    font-size: 25px;
+  }
+  .cta-section .cta-button {
+    margin: 12px auto;
+    width: 85%;
+  }
+}

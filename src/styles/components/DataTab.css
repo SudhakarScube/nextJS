@@ -1,0 +1,89 @@
+.data-tab-section {
+  padding-top: 40px;
+}
+.data-tab-section .tab-title {
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 130%;
+  color: #000000;
+  margin-bottom: 26px;
+  border-bottom: 1px solid #d8e3f8;
+  width: 90%;
+  padding-bottom: 4px;
+}
+.data-tab-section .button {
+  color: #1a202c;
+  margin-bottom: 21px;
+  padding: 0;
+  min-height: 25px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 140%;
+  letter-spacing: 0.1px;
+  font-family:"Manrope", sans-serif !important;
+  text-transform: capitalize;
+  box-shadow: none;
+}
+.data-tab-section .button:hover {
+  background-color: transparent !important;
+}
+.data-tab-section .tab-button-column .MuiTabs-flexContainer {
+  display: block;
+}
+.data-tab-section .selected {
+  color: #194bfb;
+}
+.data-tab-section .tab-button-column .css-10d9dml-MuiTabs-indicator {
+  position: relative;
+}
+.data-tab-section .grid-items .card-grid {
+  padding: 24px;
+  height: 296px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid #96a3be;
+  border-radius: 8px;
+  box-shadow: none;
+}
+
+.data-tab-section .grid-items .card-title {
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 130%;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+.data-tab-section .grid-items .description p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #000000;
+}
+.data-tab-section .grid-items .card-arrow svg {
+  padding: 0 5px;
+  color: #194bfb;
+}
+.data-tab-section .grid-items .card-arrow {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 135%;
+  letter-spacing: 0.2px;
+  color: #000000;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-family: "Manrope";
+}
+.data-tab-section .tab-button-column .MuiTabs-indicator {
+  height: 0 !important;
+}
+@media screen and (max-width: 599px) {
+  .data-tab-section .card-flexxing {
+    display: block;
+  }
+}

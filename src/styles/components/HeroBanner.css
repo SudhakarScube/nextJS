@@ -1,0 +1,124 @@
+.hero-banner-section {
+  background-repeat: no-repeat;
+  background-position: inherit;
+  background-size: cover;
+  margin-bottom: 0;
+  padding-bottom: 45px;
+}
+.hero-banner .image {
+  margin-left: auto;
+}
+
+/* .hero-banner {
+  border-radius: 20px;
+  transform: translate3d(0px, 0px, 0px);
+  overflow: hidden;
+} */
+
+.hero-banner .hero-banner-Heading span {
+  color: #194bfb;
+}
+.hero-banner .MuiGrid-container {
+  width: 100%;
+  margin-top: 0;
+}
+
+/* .hero-banner-grid .mui-text-holder {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+} */
+
+.hero-banner .description {
+  padding: 0;
+  margin-bottom: 45px;
+  width: 70%;
+}
+.hero-banner .description p {
+  margin: 0;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 140%;
+  letter-spacing: 0.1px;
+  color: #cbd5e0;
+}
+.hero-banner .hero-banner-Heading {
+  font-style: normal;
+  padding: 0;
+  margin-bottom: 45px;
+  font-weight: 700;
+  font-size: 66px;
+  line-height: 110%;
+}
+.hero-banner .hero-image {
+  display: flex;
+  justify-content: center;
+}
+
+.hero-banner .hero-button {
+  padding: 12px 33px;
+  text-transform: initial;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.2px;
+  transition: 0.6s;
+}
+
+.hero-banner .hero-banner-grid .primary-banner-image {
+  height: unset !important;
+  width: unset !important;
+  margin-bottom: 16px;
+}
+/* hover effect hero banner css ends */
+
+@media screen and (max-width: 899px) {
+  .hero-banner .hero-button-column {
+    display: inline-block;
+  }
+  .hero-banner .description {
+    width: 100%;
+  }
+  .hero-banner .hero-button-column .hero-button {
+    padding: 12px 33px;
+    margin-bottom: 56px;
+  }
+  .hero-banner-section,
+  .hero-banner {
+    padding: 0;
+  }
+  .hero-banner .hero-banner-Heading {
+    font-size: 34px;
+    line-height: 40px;
+  }
+  .hero-banner .mui-text-holder .description p {
+    width: 100%;
+  }
+  .hero-banner-section {
+    padding-top: 50px;
+  }
+
+  .Muiherobanner .mui-text-holder button,
+  .hero-banner-grid .mui-text-holder .description p {
+    font-size: 16px !important;
+  }
+  .hero-banner .mui-text-holder a {
+    font-size: 16px;
+    /* display: flex; */
+    padding: 0;
+  }
+  .hero-banner-grid .mui-text-holder {
+    padding: 0;
+  }
+
+  .home-page .hero-banner {
+    padding: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .hero-banner-grid .hero-image img,
+  .hero-banner-grid {
+    min-height: 350px;
+  }
+}

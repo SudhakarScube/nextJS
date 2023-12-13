@@ -1,0 +1,39 @@
+.template-media-section {
+  padding-top: 40px;
+}
+.template-media-section .heading {
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 125%;
+  letter-spacing: 0.2px;
+  color: #1a202c;
+  margin-bottom: 40px;
+}
+.template-media-section .social-icons img {
+  margin-right: 10px;
+}
+.template-media-section ul,
+.template-media-section ul li {
+  padding: 0;
+}
+@media screen and (max-width: 500px) {
+  .template-media-section .media-icon {
+    width: 40px;
+  }
+  .template-media-section ul li {
+    display: block;
+  }
+}
+/* contact page */
+.contact-form-section .template-media-section .social-icons img {
+  margin: 0;
+}
+.contact-form-section .template-media-section .social-icons {
+  display: flex;
+}
+.contact-form-section .template-media-section {
+  padding-top: 15px;
+}
+.contact-form-section .template-media-section .media-icon-box {
+  padding: 0;
+}

@@ -1,0 +1,131 @@
+.tempale-banner-section {
+  background-repeat: no-repeat;
+  background-position: unset;
+  background-size: cover;
+  margin-bottom: 0;
+  padding-bottom: 104px;
+}
+.tempale-banner .image {
+  margin-left: auto;
+}
+
+.tempale-banner .tempale-banner-Heading span {
+  color: #194bfb;
+}
+.tempale-banner .MuiGrid-container {
+  width: 100%;
+  margin-top: 0;
+}
+
+.tempale-banner-grid .mui-text-holder {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+}
+
+.tempale-banner .description {
+  padding: 0;
+  margin-bottom: 56px;
+  width: 87%;
+}
+.tempale-banner .description p {
+  margin: 0;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 140%;
+  letter-spacing: 0.1px;
+  color: #cbd5e0;
+}
+.tempale-banner .tempale-banner-Heading {
+  font-style: normal;
+  padding: 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 110%;
+  color: #f2f6ff;
+  width: 85%;
+  /* margin: 45px 0 51px 0; */
+}
+.hero-banner .hero-banner-Heading span {
+  color: #194bfb;
+}
+.tempale-banner .tempale-image {
+  display: flex;
+  justify-content: center;
+}
+
+.tempale-banner .tempale-button {
+  padding: 12px 33px;
+  text-transform: initial;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.2px;
+  padding: 12px 33px;
+  background-color: #194bfb;
+  color: #ffffff;
+}
+.tempale-banner .tempale-button:hover {
+  background-color: transparent;
+  color: black;
+}
+.tempale-banner .primary-banner-image {
+  height: 100% !important;
+  width: 100% !important;
+}
+/* hover effect tempale banner css ends */
+
+@media screen and (max-width: 599px) {
+  .tempale-banner .tempale-button-column {
+    display: inline-block;
+  }
+  .tempale-banner .tempale-banner-Heading {
+    font-size: 34px;
+    /* margin: 45px 0 0px 0; */
+  }
+  .tempale-banner .tempale-button-column .tempale-button {
+    padding: 12px 33px;
+    margin-bottom: 16px;
+  }
+  .tempale-banner-section,
+  .tempale-banner {
+    padding: 0;
+  }
+
+  .tempale-banner .mui-text-holder .description p {
+    width: 100%;
+  }
+  .tempale-banner-section {
+    padding-top: 90px;
+  }
+
+  .Muitempalebanner .mui-text-holder button,
+  .tempale-banner-grid .mui-text-holder .description p {
+    font-size: 16px !important;
+  }
+  .tempale-banner .mui-text-holder a {
+    font-size: 16px;
+    padding: 0;
+  }
+  .tempale-banner-grid .mui-text-holder {
+    padding: 0;
+    height: 70%;
+  }
+  .tempale-banner .primary-banner-image {
+    padding-bottom: 56px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .tempale-banner-grid .tempale-image img,
+  .tempale-banner-grid {
+    min-height: 350px;
+  }
+}
+.tempale-banner-section .tempale-banner-grid .newsbox-date {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 140%;
+  letter-spacing: 0.1px;
+  color: #5d6a83;
+}

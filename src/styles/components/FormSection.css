@@ -1,0 +1,228 @@
+.contact-form-section .left-box,
+.contact-form-section .right-box {
+  border: 1.08511px solid #f3f7f5;
+  box-shadow: 0px 27.1278px 108.511px -43.4045px rgba(0, 0, 0, 0.06);
+  border-radius: 21.7023px;
+  padding: 40px;
+  margin: 57px 0;
+  background-position: bottom left 14px;
+  background-repeat: no-repeat;
+  background-size: auto;
+  height: 75%;
+}
+.contact-form-section .heading-section {
+  width: 100% !important;
+}
+
+.contact-form-section .heading-section .heading {
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 125%;
+  letter-spacing: 0.2px;
+  color: #1a202c;
+  margin-bottom: 8px;
+  text-align: left;
+}
+.contact-form-section .heading-section .heading span {
+  color: #194bfb;
+}
+.contact-form-section .heading-section .description ul {
+  margin-top: 50px;
+}
+.contact-form-section .heading-section .description p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.2px;
+  color: #5d6a83;
+  margin: 17px 0 0 0;
+  text-align: left;
+}
+.contact-form-section .heading-section .description p a {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 140%;
+  letter-spacing: 0.1px;
+  color: #5d6a83;
+  margin: 0;
+}
+.contact-form-section .heading-section .description p a:hover {
+  color: #194bfb;
+}
+.contact-form-section .useful-column {
+  padding: 50px 0 36px 0;
+}
+.contact-form-section .media-column .title,
+.contact-form-section .useful-column .title {
+  font-weight: 800 !important;
+  font-size: 20px;
+  line-height: 135%;
+  letter-spacing: 0.2px;
+  color: #5d6a83;
+}
+.contact-form-section .media-icon-box {
+  padding: 15px 0 50px 0;
+}
+.contact-form-section .media-icon-box ul li {
+  width: 50px;
+  padding: 0;
+  height: 50px;
+  margin-right: 14px;
+}
+.contact-form-section .media-icon-box ul li a {
+  margin-right: 14px;
+}
+.contact-form-section .media-icon-box .media-icon {
+  width: 50px;
+  font-size: 50px;
+  padding: 0;
+}
+.contact-form-section .right-box .radio-button {
+  width: 95%;
+}
+.contact-form-section .heading-section .description h4 {
+  font-weight: 800 !important;
+  font-size: 20px;
+  line-height: 135%;
+  letter-spacing: 0.2px;
+  color: #5d6a83;
+  text-align: left;
+}
+.contact-form-section .media-icon-box .media-section {
+  padding: 15px 0;
+}
+.custom-textfield .custom-textfield:hover input {
+  position: relative;
+}
+
+.contact-form-section input::-webkit-outer-spin-button,
+.contact-form-section input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.contact-form-section input[type="number"] {
+  -moz-appearance: textfield;
+}
+@media screen and (max-width: 566px) {
+  .contact-form-section .right-box .radio-button {
+    display: block;
+  }
+  .contact-form-section .right-box {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 899px) {
+  .contact-form-section .right-box,
+  .contact-form-section .left-box {
+    padding: 25px;
+    width: auto;
+  }
+  .contact-form-section .contact-column {
+    display: block;
+  }
+  .contact-form-section .right-box .input-field {
+    width: 100% !important;
+  }
+  .contact-form-section .left-box,
+  .contact-form-section .right-box {
+    margin: 0;
+  }
+  .contact-form-section .media-icon-box {
+    padding-bottom: 0px;
+  }
+}
+
+/* Form section */
+.contact-form-section .right-box .input-field {
+  width: 90%;
+  background: #f9f9f9;
+  border-radius: 5.42556px;
+}
+.contact-form-section .right-box .input-lable {
+  font-weight: 500;
+  font-size: 10px;
+  font-family: "Manrope";
+  line-height: 150%;
+  letter-spacing: 0.4px;
+  color: #161925;
+}
+.contact-form-section
+  .right-box
+  .field-area
+  .css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+  border: none !important;
+}
+.contact-form-section .right-box .field-area {
+  width: 100%;
+}
+.contact-form-section .right-box .radio-button label {
+  display: block;
+}
+.contact-form-section .right-box .radio-button label .MuiTypography-body1 {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 150%;
+  letter-spacing: 0.4px;
+  color: #000000;
+}
+.contact-form-section .right-box .field-area input {
+  font-weight: 600;
+  font-size: 12px;
+  font-family: "Manrope";
+  line-height: 150%;
+  letter-spacing: 0.4px;
+  color: #1e2131;
+  padding: 13px 0 11px 21px;
+}
+.contact-form-section .right-box .text-area::placeholder {
+  font-style: normal;
+  font-weight: 600;
+  font-family: "Manrope";
+  font-size: 12px;
+  line-height: 150%;
+  letter-spacing: 0.4px;
+  color: #1e2131;
+}
+.contact-form-section .right-box .text-area .MuiOutlinedInput-notchedOutline {
+  position: relative;
+  border: none;
+}
+.contact-form-section .right-box .text-area {
+  width: 100%;
+  background: #f9f9f9;
+  border: none;
+  margin-top: 39px;
+  border-radius: 10.8511px;
+  height: 105px !important;
+}
+.contact-form-section .right-box .text-area input {
+  width: 90%;
+  font-family: "Manrope";
+  border-radius: 10.8511px;
+  padding: 20px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 150%;
+  letter-spacing: 0.4px;
+  color: #1e2131;
+}
+:focus-visible {
+  outline: none;
+}
+.contact-form-section .right-box .btn {
+  color: #f2f6ff;
+  background-color: #194bfb;
+  padding: 12px 26px;
+  margin-top: 32px;
+  border-radius: 8px;
+  border: none;
+  text-transform: initial;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+.input-field:hover:before {
+  display: none;
+}

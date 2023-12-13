@@ -1,0 +1,24 @@
+.three-column-section {
+  padding: 50px 0 49px 0;
+}
+.three-column-section .heading {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 135%;
+  letter-spacing: 0.2px;
+  color: #000000;
+  margin-left: 18px;
+  margin-bottom: 36px;
+}
+.three-column-section .three-column-content .title {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.2px;
+  margin-left: 18px;
+  color: #000000;
+}
+.three-column-section .three-column-content {
+  display: flex;
+  align-items: center;
+}

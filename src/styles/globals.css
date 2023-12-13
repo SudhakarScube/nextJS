@@ -1,0 +1,459 @@
+/* Component Styles */
+
+@import "../styles/components/Header.css";
+@import "../styles/components/Footer.css";
+@import "../styles/components/HeroBanner.css";
+@import "../styles/components/LogoSection.css";
+@import "../styles/components/TabSection.css";
+@import "../styles/components/TabSlider.css";
+@import "../styles/components/CtaSection.css";
+@import "../styles/components/NewsSection.css";
+@import "../styles/components/TwocolumnSection.css";
+@import "../styles/components/FaqSection.css";
+@import "../styles/components/InfoSlider.css";
+@import "../styles/components/QuoteSlider.css";
+@import "../styles/components/TwocolumnContent.css";
+@import "../styles/components/TableSection.css";
+@import "../styles/components/NewsOverview.css";
+@import "../styles/components/FormSection.css";
+@import "../styles/components/ContentSection.css";
+@import "../styles/components/TemplateHeroBanner.css";
+@import "../styles/components/TemplateSidebar.css";
+@import "../styles/components/TemplateContentSection.css";
+@import "../styles/components/TemplateMedia.css";
+@import "../styles/components/TemplateLayout.css";
+@import "../styles/components/DataTab.css";
+@import "../styles/components/ThreeColumnSection.css";
+@import "../styles/components/SocialMedia.css";
+
+/* Font css */
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+
+
+/* Button Hover Style */
+
+.btn:hover {
+  background-color: #2525c2 !important;
+  color: #ffffff !important;
+  transition: 0.6s;
+  font-family: var(--theme-font-family);
+}
+
+.btn {
+  font-family: var(--theme-font-family);
+  border-radius: 8px;
+  font-size: 16px;
+  animation: none
+}
+
+/* slick- slider */
+
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+/* font-awesome */
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css");
+
+/* ------------------------------ Use sass variable for the theme here -------------------------- */
+
+:root {
+  --theme-font-family: "Manrope", sans-serif;
+  /* Use theme font family here */
+  --theme-font-size: 0.875rem;
+  /* Use theme font size here */
+  --theme-font-weight: normal;
+  /* Use theme font weight here */
+  --theme-font-color: var(--grey-dark);
+  /* Use theme font color here */
+  /* h1 */
+  --theme-h1-font-size: 4.125rem;
+  /* use h1 font size here */
+  --theme-h1-font-weight: 700;
+  /* use h1 font weight here */
+  --theme-h1-font-color: var(--white);
+  /* use h1 font color here */
+  --theme-h1-font-family: "Manrope", sans-serif;
+  /* use h1 font family here */
+  --theme-h1-line-height: 72px;
+  /* h2 */
+  --theme-h2-font-size: 3.688rem;
+  /* use h2 font size here */
+  --theme-h2-font-weight: 700;
+  /* use h2 font weight here */
+  --theme-h2-font-color: var(--black);
+  /* use h2 font color here */
+  --theme-h2-font-family: "Manrope", sans-serif;
+  /* use h2 font family here */
+  --theme-h2-line-height: 64.9px;
+  /* h3 */
+  --theme-h3-font-size: 2rem;
+  /* use h3 font size here */
+  --theme-h3-font-weight: 400;
+  /* use h3 font weight here */
+  --theme-h3-font-color: var(--black);
+  /* use h3 font color here */
+  --theme-h3-font-family: "Manrope", sans-serif;
+  /* use h3 font family here */
+  --theme-h3-line-height: 42px;
+  /* h4 */
+  --theme-h4-font-size: 1.25rem;
+  /* use h4 font size here */
+  --theme-h4-font-weight: 800;
+  /* use h4 font weight here */
+  --theme-h4-font-color: var(--black);
+  /* use h4 font color here */
+  --theme-h4-font-family: "Manrope", sans-serif;
+  /* use h4 font family here */
+  --theme-h4-line-height: 27px;
+  /* h5 */
+  --theme-h5-font-size: 1.125rem;
+  /* use h5 font size here */
+  --theme-h5-font-weight: 400;
+  /* use h5 font weight here */
+  --theme-h5-font-color: var(--black);
+  /* use h5 font color here */
+  --theme-h5-font-family: "Manrope", sans-serif;
+  /* use h5 font family here */
+  --theme-h5-line-height: 29px;
+  /* h6 */
+  --theme-h6-font-size: 0.875rem;
+  /* use h6 font size here */
+  --theme-h6-font-weight: 500;
+  /* use h6 font weight here */
+  --theme-h6-font-color: var(--black);
+  /* use h6 font color here */
+  --theme-h6-font-family: "Manrope", sans-serif;
+  /* use h6 font family here */
+  --theme-h6-line-height: 22px;
+  /* p */
+  --theme-p-font-size: 1rem;
+  /* use p font size here */
+  --theme-p-font-weight: 400;
+  /* use p font weight here */
+  --theme-p-font-color: var(--black);
+  /* use p font color here */
+  --theme-p-font-family: "Manrope", sans-serif;
+  /* use p font family here */
+  --theme-p-line-height: 22px;
+  /* a tag */
+  --theme-anchor-color: var(--theme-primary-color);
+  /* Use anchor tag color here */
+  --theme-anchor-hover-color: #1a202c;
+  /* Use anchor tag hover color here */
+  --theme-primary-color: #080d22;
+  /* Use theme primary color here */
+  --theme-primary-bgcolor: #080d22;
+  /* Use theme primary background color here */
+  --theme-secondary-color: #d9e70c;
+  /* Use theme secondary color here */
+  --theme-secondary-bgcolor: #d9e70c;
+  /* Use theme secondary background color here */
+  --theme-tertiary-color: #00398f;
+  /* Use theme tertiary color here */
+  --theme-tertiary-bgcolor: #00398f;
+  /* Use theme tertiary background color here */
+  --theme-box-shadow-primary-color: rgba(107, 124, 141, 0.08);
+  /* Use theme primary box shadow color here */
+  --theme-box-shadow-secondary-color: rgba(107, 124, 141, 0.25);
+  /* Use theme secondary box shadow color here */
+  --theme-header-box-shadow-color: rgba(0, 0, 0, 0.1);
+  /* Use theme header box shadow color here */
+  ---theme-facebook-color: #193e91;
+  /* Use theme facebook color here */
+  ---theme-twitter-color: #00acee;
+  /* Use theme twitter color here */
+  ---theme-linkedin-color: #0077b5;
+  /* Use theme linkedin color here */
+  /* Use other color variables for the theme */
+  --black: #040f0f;
+  --white: #f2f6ff;
+  --blue-lighter: #e6eefa;
+  --blue-dark: #00398f;
+  --blue-darker: #000f29;
+  --grey: #5d6970;
+  --grey-lighter: #eff0f1;
+  --grey-light: #8e969b;
+  --grey-dark: #414a4e;
+  --grey-darker: #131516;
+  --yellow: #f9dc5c;
+  --green: #06a705;
+  --myyellow: #fab700;
+  --maraine: #03224f;
+  --button-bg-color: linear-gradient(91.18deg, #fab700 0%, #ffc833 100%);
+}
+
+/* ------------------------------ Use custom css here -------------------------- */
+
+.primary-bg {
+  background-color: var(--theme-primary-bgcolor);
+}
+
+.blue {
+  color: var(--blue);
+}
+
+.blue-bg {
+  background-color: var(--blue);
+}
+
+.blue-light {
+  color: var(--blue-light);
+}
+
+.blue-light-bg {
+  background-color: var(--blue-light);
+}
+
+.blue-lighter {
+  color: var(--blue-lighter);
+}
+
+.blue-lighter-bg {
+  background-color: var(--blue-lighter);
+}
+
+.blue-dark {
+  color: var(--blue-dark);
+}
+
+.blue-dark-bg {
+  background-color: var(--blue-dark);
+}
+
+.blue-darker {
+  color: var(--blue-darker);
+}
+
+.blue-darker-bg {
+  background-color: var(--blue-darker);
+}
+
+.black {
+  color: var(--black);
+}
+
+.black-bg {
+  background-color: var(--black);
+}
+
+.white {
+  color: var(--white);
+}
+
+.white-bg {
+  background-color: var(--white);
+}
+
+.grey {
+  color: var(--grey);
+}
+
+.grey-bg {
+  background-color: var(--grey);
+}
+
+.light-grey,
+.grey-light {
+  color: var(--grey-light);
+}
+
+.light-grey-bg,
+.grey-light-bg {
+  background-color: var(--grey-light);
+}
+
+.lighter-grey,
+.grey-lighter {
+  color: var(--grey-lighter);
+}
+
+.lighter-grey-bg,
+.grey-lighter-bg {
+  background-color: var(--grey-lighter);
+}
+
+.dark-grey {
+  color: var(--grey-dark);
+}
+
+.dark-grey-bg,
+.grey-dark-bg {
+  background-color: var(--grey-dark);
+}
+
+.darker-grey,
+.grey-darker {
+  color: var(--grey-darker);
+}
+
+.darker-grey-bg,
+.grey-darker-bg {
+  background-color: var(--grey-darker);
+}
+
+.yellow {
+  color: var(--yellow);
+}
+
+.fontwhite,
+.fontwhite h1,
+.fontwhite h2,
+.fontwhite h3,
+.fontwhite h4,
+.fontwhite h5,
+.fontwhite h6,
+.fontwhite p {
+  color: var(--white);
+}
+
+/* General elements */
+
+html {
+  scroll-behavior: smooth;
+  font-family: var(--theme-font-family);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  font-size: 16px;
+}
+
+body {
+  font-size: var(--theme-font-size);
+  font-weight: var(--theme-font-weight);
+  color: var(--theme-font-color);
+  font-family: "Manrope", sans-serif !important;
+  padding-right: 0 !important;
+  overflow: auto !important;
+  margin: 0 !important;
+}
+
+h1,
+.h1 {
+  font-size: var(--theme-h1-font-size);
+  font-weight: var(--theme-h1-font-weight);
+  color: var(--theme-h1-font-color) !important;
+  font-family: var(--theme-h1-font-family) !important;
+  line-height: var(--theme-h1-line-height);
+}
+
+h2,
+.h2 {
+  font-size: var(--theme-h2-font-size);
+  font-weight: var(--theme-h2-font-weight);
+  /* color: var(--theme-h2-font-color); */
+  font-family: var(--theme-h2-font-family) !important;
+  line-height: var(--theme-h2-line-height);
+}
+
+h3,
+.h3 {
+  font-size: var(--theme-h3-font-size);
+  font-weight: var(--theme-h3-font-weight);
+  /* color: var(--theme-h3-font-color); */
+  font-family: var(--theme-h3-font-family) !important;
+}
+
+h4,
+.h4 {
+  font-size: var(--theme-h4-font-size);
+  font-weight: var(--theme-h4-font-weight);
+  /* color: var(--theme-h4-font-color); */
+  font-family: var(--theme-h4-font-family) !important;
+  line-height: var(--theme-h4-line-height);
+}
+
+h5,
+.h5 {
+  font-size: var(--theme-h5-font-size);
+  font-weight: var(--theme-h5-font-weight);
+  /* color: var(--theme-h5-font-color); */
+  font-family: var(--theme-h5-font-family) !important;
+}
+
+h6,
+.h6 {
+  font-size: var(--theme-h6-font-size);
+  font-weight: var(--theme-h6-font-weight);
+  /* color: var(--theme-h6-font-color); */
+  font-family: var(--theme-h6-font-family) !important;
+}
+
+p,
+.p {
+  font-size: var(--theme-font-size);
+  font-family: m;
+  font-family: "Manrope", sans-serif !important;
+}
+
+a {
+  color: var(--theme-anchor-color);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--theme-anchor-hover-color);
+  text-decoration: none;
+}
+
+.darkout-section {
+  padding: 65px 0 35px;
+}
+
+button {
+  background-color: var(--theme-primary-color);
+  color: var(--white);
+  padding: 10px 16px;
+  box-shadow: 0px 1px 0px rgba(17, 27, 43, 0.05);
+  border-radius: 6px;
+  margin-right: 9px;
+  transition: 0.6s;
+}
+
+button:hover {
+  background-color: var(--theme-anchor-hover-color);
+}
+
+.primary,
+a .primary {
+  background-color: #036fe3;
+  color: #fff;
+  padding: 10px 16px;
+  box-shadow: 0px 1px 0px rgba(17, 27, 43, 0.05);
+  border-radius: 6px;
+  margin-right: 9px;
+  transition: 0.6s;
+  text-transform: capitalize;
+}
+
+.primary:hover,
+a .primary:hover {
+  color: #036fe3;
+  background-color: #fff;
+}
+
+.secondary,
+a .secondary {
+  background-color: #fff;
+  color: #036fe3;
+  padding: 10px 16px;
+  box-shadow: 0px 1px 0px rgba(17, 27, 43, 0.05);
+  border-radius: 6px;
+  margin-right: 9px;
+  transition: 0.6s;
+  text-transform: capitalize;
+}
+
+.secondary:hover,
+a .secondary:hover {
+  color: #fff;
+  background-color: #036fe3;
+}
+
+a {
+  display: inline-block;
+}
+
+.component-loading {
+  visibility: hidden;
+}

@@ -1,0 +1,135 @@
+.quotes-slider {
+  position: relative;
+  margin: 56px 0;
+}
+.quotes-slider .quotes-slider-wrapper {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 56px 0px;
+  gap: 10px;
+  position: relative;
+}
+.quotes-slider .quote-image {
+  margin: auto;
+}
+.quotes-slider .quotes-slider-wrapper .description p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 140%;
+  text-align: center;
+  letter-spacing: 0.1px;
+  color: #111827;
+  width: 75%;
+  margin: 24px auto 36px;
+}
+
+.quotes-slider .quotes-img::before {
+  content: url("/assest/Quote.png");
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.quotes-slider .quotes-img-1::before {
+  content: url("/assest/Quotes.png");
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.quotes-slider .quotes-slider-description {
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #000000;
+}
+
+.quotes-slider .quotes-slider-authorName {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: 0.3px;
+  color: #000000;
+}
+
+.quotes-slider .quotes-slider-designation {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #000000;
+}
+.quotes-slider .slick-list {
+  margin: 0 10px;
+}
+/* arrow */
+.quotes-slider .slick-arrow {
+  /* position: absolute; */
+  margin: -20px 0px 0px 0px;
+  z-index: 10;
+  font-size: 0;
+  width: 30px;
+  height: 30px;
+  /* top: -29px; */
+  /* left: 95%; */
+}
+.quotes-slider .slick-prev {
+  left: 0;
+  background: url("/arrow-left.svg") 0 / 100% no-repeat;
+  border: 0.5px solid #5d6a83;
+  border-radius: 6px;
+}
+.quotes-slider .slick-next {
+  right: 0;
+  background: url("/arrow-right.svg") 0 / 100% no-repeat;
+  border: 0.5px solid #5d6a83;
+  border-radius: 6px;
+}
+.quotes-slider .slick-disabled {
+  opacity: 0.2;
+}
+
+.quotes-slider .slick-prev:hover,
+.quotes-slider .slick-prev:focus {
+  background: url("/arrow-left.svg") 0 / 100% no-repeat !important;
+}
+.quotes-slider .slick-next:hover,
+.quotes-slider .slick-next:focus {
+  background: url("/arrow-right.svg") 0 / 100% no-repeat !important;
+}
+.quotes-slider .slick-prev:before,
+.quotes-slider .slick-next:before {
+  font-size: 0 !important;
+}
+.quotes-slider .quote-icon {
+  font-size: 55px;
+  color: #bfcdff;
+}
+.quotes-slider .quote-icon-left {
+  position: absolute;
+  top: 0;
+}
+.quotes-slider .quote-icon-right {
+  position: absolute;
+  right: 55px;
+  bottom: 0;
+}
+@media screen and (max-width: 768px) {
+  .quotes-slider .slick-next,
+  .quotes-slider .slick-prev {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 900px) {
+  .quotes-slider .quotes-slider-wrapper .description p {
+    width: 100%;
+    font-size: 16px;
+  }
+}

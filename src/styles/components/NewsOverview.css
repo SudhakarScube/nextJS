@@ -1,0 +1,104 @@
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+.news-overview-section {
+  margin: 96px 0;
+}
+.news-overview-section .news-box {
+  border-radius: 24px;
+  overflow: hidden;
+  padding-bottom: 1.5rem;
+  height: 600px;
+  background: #ffffff;
+  border: 1.69082px solid #f3f7f5;
+  box-shadow: 0px 42.2705px 169.082px -33.8164px rgba(0, 0, 0, 0.06);
+  border-radius: 33.8164px;
+  padding: 25px;
+}
+
+.news-overview-section .newsbox-image {
+  width: 100%;
+  overflow: hidden;
+  height: 57%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 1.69082px solid #ffffff;
+  filter: drop-shadow(8.45411px 20.2899px 28.744px rgba(185, 233, 250, 0.3));
+  border-radius: 20.2899px;
+}
+.news-overview-section .view-more-button {
+  margin: 30px 0;
+  border: 1px solid #194bfb;
+  border-radius: 8px;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.2px;
+  color: #1a202c;
+  padding: 12px 40px;
+}
+.news-overview-section .newsbox-preheading {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 140%;
+  letter-spacing: 0.1px;
+  color: #1a202c;
+  margin: 28px 0;
+}
+.news-overview-section .newsbox-heading {
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 125%;
+  letter-spacing: 0.2px;
+  color: #161925;
+  padding: 0;
+  margin-bottom: 28px;
+}
+.news-overview-section .newsbox-date {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 140%;
+  letter-spacing: 0.1px;
+  color: #161925;
+}
+.news-overview-section .news-content-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 899px) {
+  .news-overview-section .news-container {
+    margin: 0;
+  }
+  .news-grid {
+    padding-left: 0 !important;
+  }
+  .news-overview-section .news-title {
+    font-size: 42px;
+  }
+  .news-overview-section .news-container {
+    width: 100% !important;
+  }
+  .news-overview-section .newsbox-heading {
+    font-size: 24px;
+  }
+  .news-overview-section .news-box {
+    height: 470px;
+  }
+}
