@@ -5,7 +5,6 @@ import { Seo } from "@/components/Seo/Seo";
 import ContentSection from "@/components/ContentSection/ContentSection";
 import NewsOverview from "@/components/NewsOverview/NewsOverview";
 
-// ... (imports remain the same)
 
 export default function PageTemplate({ page_themedata, news_data }) {
   return (
