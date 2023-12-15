@@ -15,7 +15,7 @@ export default function page_template({ page_themedata }) {
   return (
     <Fragment>
       <Seo data={page_themedata[0]?.fields} />
-      <p>Hello World</p>
+      <p>sss</p>
       {page_themedata[0]?.fields?.components?.map((componentdata, i) => {
         return (
           <Fragment key={i}>
